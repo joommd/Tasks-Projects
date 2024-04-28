@@ -1,0 +1,15 @@
+
+main{
+    margin-top: 50px;
+}
+
+.complete , .remove{
+    display: block;
+    width: 120px;
+}
+
+#add{
+    display: block;
+    margin: 20px auto;
+
+}

@@ -1,0 +1,49 @@
+.Auth-form-container {
+  background-image: url(../pages/pics_log/pc.jpg);
+  background-position-y: -80%;
+  background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  /* @media (max-width: 576px){
+    body{
+        background-image: url(../pages/pics_log/android.jpg);
+        background-position-y:0%;
+        
+    }
+} */
+  
+  .Auth-form {
+    margin-bottom: 10%;
+    opacity: 0.9;
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 10px brown;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }

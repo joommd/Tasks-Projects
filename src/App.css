@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../src/pages/pics/pc.jpg);
+    background-position-x: center;
+}
+
+@media (max-width: 768px){
+    body{
+        background-image: url(../src/pages/pics/tablet.jpg);
+        background-position-y:20%;
+    }
+}
+
+@media (max-width: 576px){
+    body{
+        background-image: url(../src/pages/pics/andorid\ local.jpg);
+        background-position-y:0%;
+        
+    }
+}
+
